@@ -44,7 +44,7 @@ nav img{
     margin: auto; /* Centers the pseudo-element horizontally */
     transition: 0.5s;
 }
-.nav-links ul li:hover:after{
+.nav-links ul li:hover::after{
     width: 100%;  /* Set the width to 100% when the list item is hovered */
 }
 .text-box{
