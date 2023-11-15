@@ -25,36 +25,65 @@
         <div class="nav-links" id="navLinks">
           <i class="bi bi-x-square-fill" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">COURSE</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </div>
         <i class="bi bi-list" onclick="showMenu()"></i>
       </nav>
-      <h1>About Us</h1>
+      <h1>Contact Us</h1>
     </section>
-    <!-----about us content---->
-    <section class="about-us">
+    <!-----contact us---->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15956.670591532522!2d37.06865448879289!3d-1.0347803789473091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f4e8642a6977b%3A0xeb1baa27e884cfab!2sBiashara%2C%20Thika!5e0!3m2!1sen!2ske!4v1700063414024!5m2!1sen!2ske"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section class="contact-us">
       <div class="row">
-        <div class="about-col">
-          <h1>We are the world's largest university</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quis,
-            nam voluptates placeat dolor molestiae delectus quisquam amet fuga
-            at cum possimus optio eius mollitia perspiciatis modi saepe
-            cupiditate sequi.
-            <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
-          </p>
+        <div class="contact-col">
+          <div>
+            <i class="bi bi-house-door-fill"></i>
+            <span>
+              <h5>Garage Road, Trudah's Building</h5>
+              <p>Thika, Ziwani, TK</p>
+            </span>
+          </div>
+          <div>
+            <i class="bi bi-telephone-fill"></i>
+            <span>
+              <h5>+254114117903</h5>
+              <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="bi bi-envelope"></i>
+            <span>
+              <h5>info@mbithuka.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
         </div>
-        <div class="about-col">
-          <img src="eduford_img/about.jpg">
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter Email address" required>
+            <input type="text" placeholder="Enter your subject" required>
+            <textarea rows="10" placeholder="message"></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
-
     <!-----footer---->
     <section class="footer">
       <h4>About Us</h4>
