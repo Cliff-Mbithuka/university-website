@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&family=Roboto:wght@300&family=Rubik:ital,wght@0,300;0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="papa">
+        <a href="index.html"
+          ><img src="eduford_img/logo.png" alt="universty logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x-square-fill" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    
+    
+
+    
+
+    <!-----footer---->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+        consequatur soluta eum explicabo<br />
+        similique corporis consectetur labore sequi assumenda sed quibusdam hic
+        quam, obcaecati doloremque repellendus modi alias? Aperiam, vel.
+      </p>
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+      <p>Made with <i class="bi bi-heart"></i> by Engineer Mbithuka.</p>
+    </section>
+    <!-------JavaScript for Toggle Menu------>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
